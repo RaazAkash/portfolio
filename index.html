@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            
+        }
+        body{
+            background-color: black;
+        }
+        .menu{
+            height: 150px;
+            width: 100%;
+            
+            background-color: black;
+        }
+        .circle{
+            height: 120px;
+            width: 120px;
+            background-color: rgba(232, 5, 5, 0.921);
+            border-radius: 50%;
+            position: absolute;
+            top: 25px;
+            left: 40px;
+            box-shadow: 0px 0px 5px 4px white;
+        }
+        .logo{
+            position: absolute;
+            text-transform: capitalize;
+            top: 46px;
+            font-size: 40px;
+            left: 50px;
+            color: white;
+            letter-spacing: 8px;
+            font-weight: bold;
+            font-family: Monotype Corsiva;
+        }
+        .menu nav a{
+            text-decoration: none;
+            font-size: 30px;
+            display: inline-block;
+            word-spacing: 70px;
+            line-height: 150px;
+            color: white;
+        }
+        .ankr{
+            display: inline-block;
+            position: absolute;
+            left: 700px;
+            word-spacing: 70px;
+            text-transform: capitalize;
+        }
+        #img{
+            height: 600px;
+            width: 600px;
+            position: absolute;
+            left: 800px;
+            top: 150px;
+        }
+        .para{
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            
+        }
+        #dis{
+            position: relative;
+            top: 30px;
+            left: 8px;
+            font-family: ;
+            word-spacing: 3px;
+            color: white;
+             font-family: Monotype Corsiva;
+        }
+        .show{
+            height: 200%;
+            width: 200%;
+            position: relative;
+            word-spacing: 30px;
+            font-size: 35px;
+            color: white;
+            top: 20px;
+            left: -10px;
+        }
+        #h1para{
+            font-size: 40px;
+            left: -20px;
+            position: relative;
+            top: 20px;
+            color: white;
+        }
+        #h2para{
+            position: relative;
+            top: 20px;
+            font-size: 30px;
+            left: -10px;
+           color: white;
+        }
+        .btn{
+            position: relative;
+            top: 50px;
+            background-color: red;
+            color: white;
+            height: 40px;
+            width: 180px;
+            border-radius: 30%;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .buttom{
+            word-spacing: 50px;
+        }
+       
+    </style>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <div class="menu">
+        <div class="circle"></div>
+        <div class="logo">
+            <h1>hubnet</h1>
+        </div>
+        <div class="ankr">
+            <nav>
+            <a href="">Home</a>
+            <a href="">aboutus</a>
+            <a href="">Project</a>
+            <a href="">Services</a>
+            <a href="" id="co">contactus</a>
+        </nav></div>
+    </div>
+    <div class="para">
+        <h1 id="h1para">Hello, I am Hubnet <br> Full Stack Developer (MERN Stack)</h1>
+        <h3 id="dis">
+            A Group of skilled Developer in our team <br> That is able to develope a professional web <br> application within time frame with zero letency <br> support. </h3>
+            <br><br>
+            <H2 id="h2para"> Find Me On</H2> <br>
+            <div class="show">
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube" style="color: red;"></i></a>
+                <i class="fa-brands fa-facebook" ></i>
+                <i class="fa-brands fa-linkedin" ></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-telegram"></i>
+
+            </div>
+            <div class="buttom">
+            <button class="btn" id="change">HireMe</button>
+            <button class="btn" id="change" >Download CV</button></div>
+    </div>
+<img src="girlblacknew.png" alt="" id="img">
+</body>
+</html>
